@@ -4,7 +4,7 @@ function loadPlaces(position) {
         radius: 300,    // search places not farther than this value (in meters)
         clientId: 'L035KM0BXIQPJD53YOGZE5UI52ZFHLCAIBPAL4WZMGKGQTAG',
         clientSecret: 'L12QYXPV1HEBNIPSKAF044PHPMTLDURKVNN5QCGV5C0G4GFZ',
-        version: '20300101',    // foursquare versioning, required but unuseful for this demo
+        version: '20210620',    // foursquare versioning, required but unuseful for this demo
     };
 
     // CORS Proxy to avoid CORS problems
