@@ -16,11 +16,12 @@
 
 <body style="margin : 0px; overflow: hidden;">
     <model-viewer 
+        ar-scale="fixed"
         style="height: 85vh !important; width: 100% !important;" 
         src="./assets/models/gearbox/scene.gltf" 
         alt="A 3D model of a gearbox" 
         ar 
-        ar-modes="webxr" 
+        ar-modes="webxr scene-viewer quick-look" 
         camera-controls>
         <button slot="tag" data-position="1 -1 1" data-normal="0 0 1"></button>
     </model-viewer>
