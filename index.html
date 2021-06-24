@@ -15,7 +15,16 @@
 </head>
 
 <body style="margin : 0px; overflow: hidden;">
-    <model-viewer style="height: 85vh !important; width: 100% !important;" src="./assets/models/gearbox/scene.gltf" alt="A 3D model of a gearbox" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" camera-controls></model-viewer>
+    <model-viewer 
+        ar-scale="fixed" 
+        style="height: 85vh !important; width: 100% !important;" 
+        src="./assets/models/gearbox/scene.gltf" 
+        alt="A 3D model of a gearbox" 
+        ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        environment-image="neutral" camera-controls>
+        <button slot="tag" data-position="0 1.75 0.35" data-normal="0 0 1"></button>
+    </model-viewer>
     <!-- <a-scene embedded arjs>
         <a-assets>
             <img id="turbine" src="./assets/models/gas-turbine-ar.png">
