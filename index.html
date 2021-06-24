@@ -16,16 +16,16 @@
 <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
         <a-assets>
-            <img id="turbine" src="./assets/models/turbine.png">
+            <img id="turbine" src="./assets/models/gas-turbine-ar.png">
         </a-assets>
         <a-marker preset="hiro">
-            <a-image src="#turbine" rotation="-90 0 0" scale="2 2 2" position="0 0 0"/>
-            <a-plane color="#CCC" height="20" width="20" position="-1 0 1"></a-plane>
-            <!-- <a-entity
-                gltf-model="./assets/models/turbine_generator/scene.gltf"
+            <!-- <a-image src="#turbine" rotation="-90 0 0" scale="2 2 2" position="0 0 0"/> -->
+            <a-plane color="#fc0303" height="20" width="20" position="-1 0 1"></a-plane>
+            <a-entity
+                gltf-model="./assets/models/gearbox/scene.gltf"
                 scale=".01 .01 .01"
-                position="0 -10 -5"
-            ></a-entity> -->
+                position="0 -7 -5"
+            ></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
