@@ -15,5 +15,5 @@
     border: none;
     background-color: blue;
     box-sizing: border-box;
-    --min-hotspot-opacity: 0;
+    --min-hotspot-opacity: 1;
 }
